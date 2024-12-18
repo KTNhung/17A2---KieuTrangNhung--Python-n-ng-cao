@@ -7,7 +7,7 @@ class GiaoDich:
         self.so_tien = so_tien
         self.so_vang = so_vang
 
-    def to_dict(self):
+    def a(self):
         return {
             'Ngay': self.ngay,
             'SoTien': self.so_tien,
@@ -18,7 +18,7 @@ def ghi_giao_dich_vao_tep_tin(ngay, giao_dich_list):
     ten_tep_tin = f"{ngay}.json"
     with open(ten_tep_tin, 'w') as file:
         for gd in giao_dich_list:
-            json.dump(gd.to_dict(),file)
+            json.dump(gd.a(),file)
 
 def main():
     giao_dich_list = []

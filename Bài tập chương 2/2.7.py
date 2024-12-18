@@ -1,3 +1,4 @@
+#Chuyển đổi json sang python
 import json
 a = '{"name": "Nhung", "age": 20, "class": "DHKL17A2HN"}'
 
