@@ -17,7 +17,6 @@ class XMLReader:
                 quantity = product.find('quantity').text
                 print(f"Product: {name}, Price: {price}, Quantity: {quantity}")
 
-#Sử dụng lớp XMLReader
 path = './DATA//products.xml'
 reader = XMLReader(path) 
 reader.read_xml()

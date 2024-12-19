@@ -16,7 +16,6 @@ class JSONReader:
                 print(f"Name: {user['name']}, Age: {user['age']}, Address: {user['address']}")
                 
 
-
 path = 'D:\\Năm 2 (2024 - 20250\\Python nâng cao\\LAB1\\DATA\\users.json'
 reader = JSONReader(path)
 reader.read_json()
